@@ -1,0 +1,3949 @@
+{
+ "artifacts": [
+  {
+   "id": "443281576a6fdc68",
+   "name": "./staging/src/k8s.io/api",
+   "version": "(devel)",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:staging:src\\/k8s.io\\/api:\\(devel\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/./staging/src/k8s.io/api@(devel)",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "5b68b6daeb755a80",
+   "name": "./staging/src/k8s.io/apimachinery",
+   "version": "(devel)",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:staging:src\\/k8s.io\\/apimachinery:\\(devel\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/./staging/src/k8s.io/apimachinery@(devel)",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "1d7115271c93284",
+   "name": "./staging/src/k8s.io/apiserver",
+   "version": "(devel)",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:staging:src\\/k8s.io\\/apiserver:\\(devel\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/./staging/src/k8s.io/apiserver@(devel)",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "c6c57346ab192f74",
+   "name": "./staging/src/k8s.io/client-go",
+   "version": "(devel)",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:staging:src\\/k8s.io\\/client-go:\\(devel\\):*:*:*:*:*:*:*",
+    "cpe:2.3:a:staging:src\\/k8s.io\\/client_go:\\(devel\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/./staging/src/k8s.io/client-go@(devel)",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "2cfc5c7f60cff9c6",
+   "name": "./staging/src/k8s.io/cloud-provider",
+   "version": "(devel)",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:staging:src\\/k8s.io\\/cloud-provider:\\(devel\\):*:*:*:*:*:*:*",
+    "cpe:2.3:a:staging:src\\/k8s.io\\/cloud_provider:\\(devel\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/./staging/src/k8s.io/cloud-provider@(devel)",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "d3c3ffa16cf6ad3c",
+   "name": "./staging/src/k8s.io/cluster-bootstrap",
+   "version": "(devel)",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:staging:src\\/k8s.io\\/cluster-bootstrap:\\(devel\\):*:*:*:*:*:*:*",
+    "cpe:2.3:a:staging:src\\/k8s.io\\/cluster_bootstrap:\\(devel\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/./staging/src/k8s.io/cluster-bootstrap@(devel)",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "d213351dc7d200c2",
+   "name": "./staging/src/k8s.io/component-base",
+   "version": "(devel)",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:staging:src\\/k8s.io\\/component-base:\\(devel\\):*:*:*:*:*:*:*",
+    "cpe:2.3:a:staging:src\\/k8s.io\\/component_base:\\(devel\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/./staging/src/k8s.io/component-base@(devel)",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "508b216d3b28859d",
+   "name": "./staging/src/k8s.io/component-helpers",
+   "version": "(devel)",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:staging:src\\/k8s.io\\/component-helpers:\\(devel\\):*:*:*:*:*:*:*",
+    "cpe:2.3:a:staging:src\\/k8s.io\\/component_helpers:\\(devel\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/./staging/src/k8s.io/component-helpers@(devel)",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "df7cd38d3f3789f7",
+   "name": "./staging/src/k8s.io/controller-manager",
+   "version": "(devel)",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:staging:src\\/k8s.io\\/controller-manager:\\(devel\\):*:*:*:*:*:*:*",
+    "cpe:2.3:a:staging:src\\/k8s.io\\/controller_manager:\\(devel\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/./staging/src/k8s.io/controller-manager@(devel)",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "b5869eb3fd4fe792",
+   "name": "./staging/src/k8s.io/cri-api",
+   "version": "(devel)",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:staging:src\\/k8s.io\\/cri-api:\\(devel\\):*:*:*:*:*:*:*",
+    "cpe:2.3:a:staging:src\\/k8s.io\\/cri_api:\\(devel\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/./staging/src/k8s.io/cri-api@(devel)",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "215f3734fde7d9a4",
+   "name": "./staging/src/k8s.io/csi-translation-lib",
+   "version": "(devel)",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:staging:src\\/k8s.io\\/csi-translation-lib:\\(devel\\):*:*:*:*:*:*:*",
+    "cpe:2.3:a:staging:src\\/k8s.io\\/csi_translation_lib:\\(devel\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/./staging/src/k8s.io/csi-translation-lib@(devel)",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "37376633be533b05",
+   "name": "./staging/src/k8s.io/kube-controller-manager",
+   "version": "(devel)",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:staging:src\\/k8s.io\\/kube-controller-manager:\\(devel\\):*:*:*:*:*:*:*",
+    "cpe:2.3:a:staging:src\\/k8s.io\\/kube_controller_manager:\\(devel\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/./staging/src/k8s.io/kube-controller-manager@(devel)",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "33d36612f04801e4",
+   "name": "./staging/src/k8s.io/kubectl",
+   "version": "(devel)",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:staging:src\\/k8s.io\\/kubectl:\\(devel\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/./staging/src/k8s.io/kubectl@(devel)",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "3ce08861a3277edc",
+   "name": "./staging/src/k8s.io/kubelet",
+   "version": "(devel)",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:staging:src\\/k8s.io\\/kubelet:\\(devel\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/./staging/src/k8s.io/kubelet@(devel)",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "a5a3c1bd191ad947",
+   "name": "./staging/src/k8s.io/legacy-cloud-providers",
+   "version": "(devel)",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:staging:src\\/k8s.io\\/legacy-cloud-providers:\\(devel\\):*:*:*:*:*:*:*",
+    "cpe:2.3:a:staging:src\\/k8s.io\\/legacy_cloud_providers:\\(devel\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/./staging/src/k8s.io/legacy-cloud-providers@(devel)",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "4c471b6b879fb5be",
+   "name": "./staging/src/k8s.io/metrics",
+   "version": "(devel)",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:staging:src\\/k8s.io\\/metrics:\\(devel\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/./staging/src/k8s.io/metrics@(devel)",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "68749a3dfc190c6f",
+   "name": "./staging/src/k8s.io/mount-utils",
+   "version": "(devel)",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:staging:src\\/k8s.io\\/mount-utils:\\(devel\\):*:*:*:*:*:*:*",
+    "cpe:2.3:a:staging:src\\/k8s.io\\/mount_utils:\\(devel\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/./staging/src/k8s.io/mount-utils@(devel)",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "8211c18461072747",
+   "name": "./staging/src/k8s.io/pod-security-admission",
+   "version": "(devel)",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:staging:src\\/k8s.io\\/pod-security-admission:\\(devel\\):*:*:*:*:*:*:*",
+    "cpe:2.3:a:staging:src\\/k8s.io\\/pod_security_admission:\\(devel\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/./staging/src/k8s.io/pod-security-admission@(devel)",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "8f5b883ecddead71",
+   "name": "base-files",
+   "version": "11.1+deb11u4",
+   "type": "deb",
+   "foundBy": "dpkgdb-cataloger",
+   "locations": [
+    {
+     "path": "/usr/share/doc/base-files/copyright",
+     "layerID": "sha256:8d7366c22fd8219bfcfb61ed28457854c80e310b0d736b67861b2ea7fcd77843"
+    },
+    {
+     "path": "/var/lib/dpkg/status.d/base",
+     "layerID": "sha256:8d7366c22fd8219bfcfb61ed28457854c80e310b0d736b67861b2ea7fcd77843"
+    }
+   ],
+   "licenses": [
+    "GPL"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:base-files:base-files:11.1\\+deb11u4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:base-files:base_files:11.1\\+deb11u4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:base_files:base-files:11.1\\+deb11u4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:base_files:base_files:11.1\\+deb11u4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:base:base-files:11.1\\+deb11u4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:base:base_files:11.1\\+deb11u4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:deb/debian/base-files@11.1+deb11u4?arch=amd64&distro=debian-11",
+   "metadataType": "DpkgMetadata",
+   "metadata": {
+    "package": "base-files",
+    "source": "",
+    "version": "11.1+deb11u4",
+    "sourceVersion": "",
+    "architecture": "amd64",
+    "maintainer": "Santiago Vila <sanvila@debian.org>",
+    "installedSize": 340,
+    "files": []
+   }
+  },
+  {
+   "id": "b0d95839d1fdb81a",
+   "name": "cloud.google.com/go",
+   "version": "v0.97.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/cloud.google.com/go@v0.97.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "c6a677c0c7f12446",
+   "name": "github.com/Azure/azure-sdk-for-go",
+   "version": "v55.0.0+incompatible",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:Azure:azure-sdk-for-go:v55.0.0\\+incompatible:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Azure:azure_sdk_for_go:v55.0.0\\+incompatible:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go@v55.0.0+incompatible",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "76a3e55bc2887d62",
+   "name": "github.com/Azure/go-autorest/autorest",
+   "version": "v0.11.27",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:Azure:go-autorest\\/autorest:v0.11.27:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Azure:go_autorest\\/autorest:v0.11.27:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/Azure/go-autorest/autorest@v0.11.27",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "fa96fe3333dcaac1",
+   "name": "github.com/Azure/go-autorest/autorest/adal",
+   "version": "v0.9.20",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:Azure:go-autorest\\/autorest\\/adal:v0.9.20:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Azure:go_autorest\\/autorest\\/adal:v0.9.20:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/Azure/go-autorest/autorest/adal@v0.9.20",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "e9afa625a9c45e53",
+   "name": "github.com/Azure/go-autorest/autorest/date",
+   "version": "v0.3.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:Azure:go-autorest\\/autorest\\/date:v0.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Azure:go_autorest\\/autorest\\/date:v0.3.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/Azure/go-autorest/autorest/date@v0.3.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "9e902c315ece3809",
+   "name": "github.com/Azure/go-autorest/autorest/mocks",
+   "version": "v0.4.2",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:Azure:go-autorest\\/autorest\\/mocks:v0.4.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Azure:go_autorest\\/autorest\\/mocks:v0.4.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/Azure/go-autorest/autorest/mocks@v0.4.2",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "b6a3fb8cd89e92dc",
+   "name": "github.com/Azure/go-autorest/autorest/to",
+   "version": "v0.4.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:Azure:go-autorest\\/autorest\\/to:v0.4.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Azure:go_autorest\\/autorest\\/to:v0.4.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/Azure/go-autorest/autorest/to@v0.4.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "a6ed6a4e5f8d84e9",
+   "name": "github.com/Azure/go-autorest/autorest/validation",
+   "version": "v0.1.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:Azure:go-autorest\\/autorest\\/validation:v0.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Azure:go_autorest\\/autorest\\/validation:v0.1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/Azure/go-autorest/autorest/validation@v0.1.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "a6fe3ae87053aeac",
+   "name": "github.com/Azure/go-autorest/logger",
+   "version": "v0.2.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:Azure:go-autorest\\/logger:v0.2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Azure:go_autorest\\/logger:v0.2.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/Azure/go-autorest/logger@v0.2.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "1c40bbe535e45506",
+   "name": "github.com/Azure/go-autorest/tracing",
+   "version": "v0.6.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:Azure:go-autorest\\/tracing:v0.6.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Azure:go_autorest\\/tracing:v0.6.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/Azure/go-autorest/tracing@v0.6.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "ae93db2d617c474f",
+   "name": "github.com/GoogleCloudPlatform/k8s-cloud-provider",
+   "version": "v1.18.1-0.20220218231025-f11817397a1b",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:GoogleCloudPlatform:k8s-cloud-provider:v1.18.1-0.20220218231025-f11817397a1b:*:*:*:*:*:*:*",
+    "cpe:2.3:a:GoogleCloudPlatform:k8s_cloud_provider:v1.18.1-0.20220218231025-f11817397a1b:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/GoogleCloudPlatform/k8s-cloud-provider@v1.18.1-0.20220218231025-f11817397a1b",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "912c554ed92f8657",
+   "name": "github.com/NYTimes/gziphandler",
+   "version": "v1.1.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:NYTimes:gziphandler:v1.1.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/NYTimes/gziphandler@v1.1.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "7821cc0d5515ccdb",
+   "name": "github.com/PuerkitoBio/purell",
+   "version": "v1.1.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:PuerkitoBio:purell:v1.1.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/PuerkitoBio/purell@v1.1.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "6c6abfb519433f9a",
+   "name": "github.com/PuerkitoBio/urlesc",
+   "version": "v0.0.0-20170810143723-de5bf2ad4578",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:PuerkitoBio:urlesc:v0.0.0-20170810143723-de5bf2ad4578:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/PuerkitoBio/urlesc@v0.0.0-20170810143723-de5bf2ad4578",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "f2be4c783ddec190",
+   "name": "github.com/asaskevich/govalidator",
+   "version": "v0.0.0-20190424111038-f61b66f89f4a",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:asaskevich:govalidator:v0.0.0-20190424111038-f61b66f89f4a:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/asaskevich/govalidator@v0.0.0-20190424111038-f61b66f89f4a",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "b11c7465cb40310d",
+   "name": "github.com/aws/aws-sdk-go",
+   "version": "v1.38.49",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:aws:aws-sdk-go:v1.38.49:*:*:*:*:*:*:*",
+    "cpe:2.3:a:aws:aws_sdk_go:v1.38.49:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/aws/aws-sdk-go@v1.38.49",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "df332304ddad0049",
+   "name": "github.com/beorn7/perks",
+   "version": "v1.0.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:beorn7:perks:v1.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/beorn7/perks@v1.0.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "e177b86e633b936a",
+   "name": "github.com/blang/semver/v4",
+   "version": "v4.0.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:blang:semver\\/v4:v4.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/blang/semver/v4@v4.0.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "4700effddbbfa8ad",
+   "name": "github.com/cespare/xxhash/v2",
+   "version": "v2.1.2",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:cespare:xxhash\\/v2:v2.1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/cespare/xxhash/v2@v2.1.2",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "5ce67a11bc0cda2e",
+   "name": "github.com/container-storage-interface/spec",
+   "version": "v1.6.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:container-storage-interface:spec:v1.6.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:container_storage_interface:spec:v1.6.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:container-storage:spec:v1.6.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:container_storage:spec:v1.6.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:container:spec:v1.6.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/container-storage-interface/spec@v1.6.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "ba8b12a7a195cac0",
+   "name": "github.com/coreos/go-oidc",
+   "version": "v2.1.0+incompatible",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:coreos:go-oidc:v2.1.0\\+incompatible:*:*:*:*:*:*:*",
+    "cpe:2.3:a:coreos:go_oidc:v2.1.0\\+incompatible:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/coreos/go-oidc@v2.1.0+incompatible",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "e9138837e80fb80f",
+   "name": "github.com/coreos/go-semver",
+   "version": "v0.3.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:coreos:go-semver:v0.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:coreos:go_semver:v0.3.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/coreos/go-semver@v0.3.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "9d515a6f59b6d567",
+   "name": "github.com/coreos/go-systemd/v22",
+   "version": "v22.3.2",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:coreos:go-systemd\\/v22:v22.3.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:coreos:go_systemd\\/v22:v22.3.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/coreos/go-systemd/v22@v22.3.2",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "5c56e42ec3ca2863",
+   "name": "github.com/davecgh/go-spew",
+   "version": "v1.1.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "d7e8270d41a56170",
+   "name": "github.com/docker/distribution",
+   "version": "v2.8.1+incompatible",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:docker:distribution:v2.8.1\\+incompatible:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/docker/distribution@v2.8.1+incompatible",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "ed04e0574fb9bcae",
+   "name": "github.com/emicklei/go-restful/v3",
+   "version": "v3.8.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:emicklei:go-restful\\/v3:v3.8.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:emicklei:go_restful\\/v3:v3.8.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/emicklei/go-restful/v3@v3.8.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "ad2f9a9032df45cb",
+   "name": "github.com/evanphx/json-patch",
+   "version": "v4.12.0+incompatible",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:evanphx:json-patch:v4.12.0\\+incompatible:*:*:*:*:*:*:*",
+    "cpe:2.3:a:evanphx:json_patch:v4.12.0\\+incompatible:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/evanphx/json-patch@v4.12.0+incompatible",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "982631995681554",
+   "name": "github.com/felixge/httpsnoop",
+   "version": "v1.0.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:felixge:httpsnoop:v1.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/felixge/httpsnoop@v1.0.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "aef89d9a85f04597",
+   "name": "github.com/form3tech-oss/jwt-go",
+   "version": "v3.2.3+incompatible",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:form3tech-oss:jwt-go:v3.2.3\\+incompatible:*:*:*:*:*:*:*",
+    "cpe:2.3:a:form3tech-oss:jwt_go:v3.2.3\\+incompatible:*:*:*:*:*:*:*",
+    "cpe:2.3:a:form3tech_oss:jwt-go:v3.2.3\\+incompatible:*:*:*:*:*:*:*",
+    "cpe:2.3:a:form3tech_oss:jwt_go:v3.2.3\\+incompatible:*:*:*:*:*:*:*",
+    "cpe:2.3:a:form3tech:jwt-go:v3.2.3\\+incompatible:*:*:*:*:*:*:*",
+    "cpe:2.3:a:form3tech:jwt_go:v3.2.3\\+incompatible:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/form3tech-oss/jwt-go@v3.2.3+incompatible",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "45580d9b6e15dae",
+   "name": "github.com/fsnotify/fsnotify",
+   "version": "v1.4.9",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:fsnotify:fsnotify:v1.4.9:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/fsnotify/fsnotify@v1.4.9",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "7c654ff7ce40b3ee",
+   "name": "github.com/go-logr/logr",
+   "version": "v1.2.3",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:go-logr:logr:v1.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go_logr:logr:v1.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go:logr:v1.2.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/go-logr/logr@v1.2.3",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "e7765bf4db25f41c",
+   "name": "github.com/go-logr/zapr",
+   "version": "v1.2.3",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:go-logr:zapr:v1.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go_logr:zapr:v1.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go:zapr:v1.2.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/go-logr/zapr@v1.2.3",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "b37f542ee405cf8b",
+   "name": "github.com/go-openapi/jsonpointer",
+   "version": "v0.19.5",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:go-openapi:jsonpointer:v0.19.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go_openapi:jsonpointer:v0.19.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go:jsonpointer:v0.19.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/go-openapi/jsonpointer@v0.19.5",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "6d5f024eb2e54986",
+   "name": "github.com/go-openapi/jsonreference",
+   "version": "v0.19.5",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:go-openapi:jsonreference:v0.19.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go_openapi:jsonreference:v0.19.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go:jsonreference:v0.19.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/go-openapi/jsonreference@v0.19.5",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "5ad1118bae3a1d0d",
+   "name": "github.com/go-openapi/swag",
+   "version": "v0.19.14",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:go-openapi:swag:v0.19.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go_openapi:swag:v0.19.14:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go:swag:v0.19.14:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/go-openapi/swag@v0.19.14",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "1be1d45042b61f2e",
+   "name": "github.com/go-ozzo/ozzo-validation",
+   "version": "v3.5.0+incompatible",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:go-ozzo:ozzo-validation:v3.5.0\\+incompatible:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go-ozzo:ozzo_validation:v3.5.0\\+incompatible:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go_ozzo:ozzo-validation:v3.5.0\\+incompatible:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go_ozzo:ozzo_validation:v3.5.0\\+incompatible:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go:ozzo-validation:v3.5.0\\+incompatible:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go:ozzo_validation:v3.5.0\\+incompatible:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/go-ozzo/ozzo-validation@v3.5.0+incompatible",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "b720800a48e2581f",
+   "name": "github.com/gofrs/uuid",
+   "version": "v4.0.0+incompatible",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:gofrs:uuid:v4.0.0\\+incompatible:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/gofrs/uuid@v4.0.0+incompatible",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "95dd3f92650e6bf4",
+   "name": "github.com/gogo/protobuf",
+   "version": "v1.3.2",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:gogo:protobuf:v1.3.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/gogo/protobuf@v1.3.2",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "4aa5e262f1f41804",
+   "name": "github.com/golang-jwt/jwt/v4",
+   "version": "v4.2.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:golang-jwt:jwt\\/v4:v4.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:golang_jwt:jwt\\/v4:v4.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:golang:jwt\\/v4:v4.2.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/golang-jwt/jwt/v4@v4.2.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "5e76c0a1440d0862",
+   "name": "github.com/golang/groupcache",
+   "version": "v0.0.0-20210331224755-41bb18bfe9da",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:golang:groupcache:v0.0.0-20210331224755-41bb18bfe9da:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/golang/groupcache@v0.0.0-20210331224755-41bb18bfe9da",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "776715021ff2f319",
+   "name": "github.com/golang/mock",
+   "version": "v1.6.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:golang:mock:v1.6.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/golang/mock@v1.6.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "8c090c4e03408e66",
+   "name": "github.com/golang/protobuf",
+   "version": "v1.5.2",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:golang:protobuf:v1.5.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/golang/protobuf@v1.5.2",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "f97be6a88225e714",
+   "name": "github.com/google/gnostic",
+   "version": "v0.5.7-v3refs",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:google:gnostic:v0.5.7-v3refs:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/google/gnostic@v0.5.7-v3refs",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "ade85362521615a6",
+   "name": "github.com/google/go-cmp",
+   "version": "v0.5.6",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:google:go-cmp:v0.5.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:google:go_cmp:v0.5.6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/google/go-cmp@v0.5.6",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "8863ba78e0d3bc61",
+   "name": "github.com/google/uuid",
+   "version": "v1.1.2",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:google:uuid:v1.1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/google/uuid@v1.1.2",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "b134e09ae8d3e8b4",
+   "name": "github.com/googleapis/gax-go/v2",
+   "version": "v2.1.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:googleapis:gax-go\\/v2:v2.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:googleapis:gax_go\\/v2:v2.1.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/googleapis/gax-go/v2@v2.1.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "5b95e515222ee662",
+   "name": "github.com/gophercloud/gophercloud",
+   "version": "v0.1.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:gophercloud:gophercloud:v0.1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/gophercloud/gophercloud@v0.1.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "77c183ce55785bdf",
+   "name": "github.com/grpc-ecosystem/go-grpc-prometheus",
+   "version": "v1.2.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:grpc-ecosystem:go-grpc-prometheus:v1.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grpc-ecosystem:go_grpc_prometheus:v1.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grpc_ecosystem:go-grpc-prometheus:v1.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grpc_ecosystem:go_grpc_prometheus:v1.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grpc:go-grpc-prometheus:v1.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grpc:go_grpc_prometheus:v1.2.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/grpc-ecosystem/go-grpc-prometheus@v1.2.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "b8242c33a438bea9",
+   "name": "github.com/grpc-ecosystem/grpc-gateway",
+   "version": "v1.16.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:grpc-ecosystem:grpc-gateway:v1.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grpc-ecosystem:grpc_gateway:v1.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grpc_ecosystem:grpc-gateway:v1.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grpc_ecosystem:grpc_gateway:v1.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grpc:grpc-gateway:v1.16.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:grpc:grpc_gateway:v1.16.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/grpc-ecosystem/grpc-gateway@v1.16.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "3797502dc952ee4e",
+   "name": "github.com/heketi/heketi",
+   "version": "v10.3.0+incompatible",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:heketi:heketi:v10.3.0\\+incompatible:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/heketi/heketi@v10.3.0+incompatible",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "3dfb29d828965b6f",
+   "name": "github.com/imdario/mergo",
+   "version": "v0.3.6",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:imdario:mergo:v0.3.6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/imdario/mergo@v0.3.6",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "3c615fa374bfeb56",
+   "name": "github.com/jmespath/go-jmespath",
+   "version": "v0.4.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:jmespath:go-jmespath:v0.4.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jmespath:go_jmespath:v0.4.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/jmespath/go-jmespath@v0.4.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "fb0f0d9422a2623d",
+   "name": "github.com/josharian/intern",
+   "version": "v1.0.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:josharian:intern:v1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/josharian/intern@v1.0.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "b735c88bf56fa346",
+   "name": "github.com/json-iterator/go",
+   "version": "v1.1.12",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:json-iterator:go:v1.1.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json_iterator:go:v1.1.12:*:*:*:*:*:*:*",
+    "cpe:2.3:a:json:go:v1.1.12:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/json-iterator/go@v1.1.12",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "db8b325c9e5c0370",
+   "name": "github.com/libopenstorage/openstorage",
+   "version": "v1.0.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:libopenstorage:openstorage:v1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/libopenstorage/openstorage@v1.0.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "82ed4e0e5fdcdf2b",
+   "name": "github.com/mailru/easyjson",
+   "version": "v0.7.6",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:mailru:easyjson:v0.7.6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/mailru/easyjson@v0.7.6",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "da80a1fc67e9d585",
+   "name": "github.com/matttproud/golang_protobuf_extensions",
+   "version": "v1.0.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:matttproud:golang-protobuf-extensions:v1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:matttproud:golang_protobuf_extensions:v1.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "8d30a51e96faf022",
+   "name": "github.com/mitchellh/mapstructure",
+   "version": "v1.4.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:mitchellh:mapstructure:v1.4.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/mitchellh/mapstructure@v1.4.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "6ed137488e720d8b",
+   "name": "github.com/moby/spdystream",
+   "version": "v0.2.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:moby:spdystream:v0.2.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/moby/spdystream@v0.2.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "8aca4038d17ad9c8",
+   "name": "github.com/moby/sys/mountinfo",
+   "version": "v0.6.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:moby:sys\\/mountinfo:v0.6.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/moby/sys/mountinfo@v0.6.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "b79b0d69987d304a",
+   "name": "github.com/moby/term",
+   "version": "v0.0.0-20210619224110-3f7ff695adc6",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:moby:term:v0.0.0-20210619224110-3f7ff695adc6:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/moby/term@v0.0.0-20210619224110-3f7ff695adc6",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "57db13aafe28bfad",
+   "name": "github.com/modern-go/concurrent",
+   "version": "v0.0.0-20180306012644-bacd9c7ef1dd",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*",
+    "cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*",
+    "cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "21702e596292de71",
+   "name": "github.com/modern-go/reflect2",
+   "version": "v1.0.2",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:modern-go:reflect2:v1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:modern_go:reflect2:v1.0.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:modern:reflect2:v1.0.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/modern-go/reflect2@v1.0.2",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "6cddc5211858ec51",
+   "name": "github.com/mohae/deepcopy",
+   "version": "v0.0.0-20170603005431-491d3605edfb",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:mohae:deepcopy:v0.0.0-20170603005431-491d3605edfb:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/mohae/deepcopy@v0.0.0-20170603005431-491d3605edfb",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "faf82952ee663753",
+   "name": "github.com/munnerz/goautoneg",
+   "version": "v0.0.0-20191010083416-a7dc8b61c822",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:munnerz:goautoneg:v0.0.0-20191010083416-a7dc8b61c822:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "95a9791dab19be71",
+   "name": "github.com/mxk/go-flowrate",
+   "version": "v0.0.0-20140419014527-cca7078d478f",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:mxk:go-flowrate:v0.0.0-20140419014527-cca7078d478f:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mxk:go_flowrate:v0.0.0-20140419014527-cca7078d478f:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/mxk/go-flowrate@v0.0.0-20140419014527-cca7078d478f",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "5d279bbf7300894c",
+   "name": "github.com/opencontainers/go-digest",
+   "version": "v1.0.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:opencontainers:go-digest:v1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:opencontainers:go_digest:v1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/opencontainers/go-digest@v1.0.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "2cd6f8e1e6d30db9",
+   "name": "github.com/opencontainers/selinux",
+   "version": "v1.10.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:opencontainers:selinux:v1.10.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/opencontainers/selinux@v1.10.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "b005db88caff3d7c",
+   "name": "github.com/pkg/errors",
+   "version": "v0.9.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/pkg/errors@v0.9.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "ddc7206d938bd788",
+   "name": "github.com/pmezard/go-difflib",
+   "version": "v1.0.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:pmezard:go-difflib:v1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pmezard:go_difflib:v1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/pmezard/go-difflib@v1.0.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "9f40907626b1f8de",
+   "name": "github.com/pquerna/cachecontrol",
+   "version": "v0.1.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:pquerna:cachecontrol:v0.1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/pquerna/cachecontrol@v0.1.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "3972f87285a5b72a",
+   "name": "github.com/prometheus/client_golang",
+   "version": "v1.12.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:prometheus:client-golang:v1.12.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:prometheus:client_golang:v1.12.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/prometheus/client_golang@v1.12.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "a4b4ba4e0537645",
+   "name": "github.com/prometheus/client_model",
+   "version": "v0.2.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:prometheus:client-model:v0.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:prometheus:client_model:v0.2.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/prometheus/client_model@v0.2.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "4befded7b4c06306",
+   "name": "github.com/prometheus/common",
+   "version": "v0.32.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:prometheus:common:v0.32.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/prometheus/common@v0.32.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "7ea99cfaa39bd496",
+   "name": "github.com/prometheus/procfs",
+   "version": "v0.7.3",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:prometheus:procfs:v0.7.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/prometheus/procfs@v0.7.3",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "11523ef3458a2c15",
+   "name": "github.com/robfig/cron/v3",
+   "version": "v3.0.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:robfig:cron\\/v3:v3.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/robfig/cron/v3@v3.0.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "14740610f69dbd0",
+   "name": "github.com/rubiojr/go-vhd",
+   "version": "v0.0.0-20200706105327-02e210299021",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:rubiojr:go-vhd:v0.0.0-20200706105327-02e210299021:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rubiojr:go_vhd:v0.0.0-20200706105327-02e210299021:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/rubiojr/go-vhd@v0.0.0-20200706105327-02e210299021",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "4c909cb6e9552c64",
+   "name": "github.com/spf13/cobra",
+   "version": "v1.4.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:spf13:cobra:v1.4.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/spf13/cobra@v1.4.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "741b20d761024099",
+   "name": "github.com/spf13/pflag",
+   "version": "v1.0.5",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/spf13/pflag@v1.0.5",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "47c61f3e66284d84",
+   "name": "github.com/stretchr/objx",
+   "version": "v0.2.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:stretchr:objx:v0.2.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/stretchr/objx@v0.2.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "75418d67007ef3a7",
+   "name": "github.com/stretchr/testify",
+   "version": "v1.7.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:stretchr:testify:v1.7.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/stretchr/testify@v1.7.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "30fb14f8f4822dff",
+   "name": "github.com/vmware/govmomi",
+   "version": "v0.20.3",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:vmware:govmomi:v0.20.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/vmware/govmomi@v0.20.3",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "ed20d3f18f03da15",
+   "name": "go.etcd.io/etcd/api/v3",
+   "version": "v3.5.4",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:etcd:api\\/v3:v3.5.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/go.etcd.io/etcd/api/v3@v3.5.4",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "1fb62c2f5a5492ac",
+   "name": "go.etcd.io/etcd/client/pkg/v3",
+   "version": "v3.5.4",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:etcd:client\\/pkg\\/v3:v3.5.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/go.etcd.io/etcd/client/pkg/v3@v3.5.4",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "a08f42ba123ab3a3",
+   "name": "go.etcd.io/etcd/client/v3",
+   "version": "v3.5.4",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:etcd:client\\/v3:v3.5.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/go.etcd.io/etcd/client/v3@v3.5.4",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "95b3eb9a69e6a5da",
+   "name": "go.opencensus.io",
+   "version": "v0.23.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/go.opencensus.io@v0.23.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "41994df65a7ea39f",
+   "name": "go.opentelemetry.io/contrib",
+   "version": "v0.20.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/go.opentelemetry.io/contrib@v0.20.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "c4a20d64c826f49",
+   "name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+   "version": "v0.20.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:contrib:instrumentation\\/google.golang.org\\/grpc\\/otelgrpc:v0.20.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.20.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "a4e201bbfa2b4858",
+   "name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+   "version": "v0.20.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:contrib:instrumentation\\/net\\/http\\/otelhttp:v0.20.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.20.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "106ea1dd069e4778",
+   "name": "go.opentelemetry.io/otel",
+   "version": "v0.20.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/go.opentelemetry.io/otel@v0.20.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "ab99e5ac34477e73",
+   "name": "go.opentelemetry.io/otel/exporters/otlp",
+   "version": "v0.20.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:otel:exporters\\/otlp:v0.20.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/go.opentelemetry.io/otel/exporters/otlp@v0.20.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "38becf94d844794c",
+   "name": "go.opentelemetry.io/otel/metric",
+   "version": "v0.20.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:otel:metric:v0.20.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/go.opentelemetry.io/otel/metric@v0.20.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "8fc5d2fa3e3f9ac9",
+   "name": "go.opentelemetry.io/otel/sdk",
+   "version": "v0.20.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:otel:sdk:v0.20.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/go.opentelemetry.io/otel/sdk@v0.20.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "f2c343ff037f2aa1",
+   "name": "go.opentelemetry.io/otel/sdk/export/metric",
+   "version": "v0.20.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:otel:sdk\\/export\\/metric:v0.20.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/go.opentelemetry.io/otel/sdk/export/metric@v0.20.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "f266080ec3bcfc21",
+   "name": "go.opentelemetry.io/otel/sdk/metric",
+   "version": "v0.20.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:otel:sdk\\/metric:v0.20.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/go.opentelemetry.io/otel/sdk/metric@v0.20.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "b517cc3a55dafece",
+   "name": "go.opentelemetry.io/otel/trace",
+   "version": "v0.20.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:otel:trace:v0.20.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/go.opentelemetry.io/otel/trace@v0.20.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "289d6fcedfb5e248",
+   "name": "go.opentelemetry.io/proto/otlp",
+   "version": "v0.7.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:proto:otlp:v0.7.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/go.opentelemetry.io/proto/otlp@v0.7.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "84c8b09c41775380",
+   "name": "go.uber.org/atomic",
+   "version": "v1.7.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/go.uber.org/atomic@v1.7.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "937096fe025951a4",
+   "name": "go.uber.org/multierr",
+   "version": "v1.6.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/go.uber.org/multierr@v1.6.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "6c08d28f0f4a5561",
+   "name": "go.uber.org/zap",
+   "version": "v1.19.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/go.uber.org/zap@v1.19.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "e24d9eedc2f1f670",
+   "name": "golang.org/x/crypto",
+   "version": "v0.0.0-20220315160706-3147a52a75dd",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:golang:x\\/crypto:v0.0.0-20220315160706-3147a52a75dd:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/golang.org/x/crypto@v0.0.0-20220315160706-3147a52a75dd",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "69c5028834333d39",
+   "name": "golang.org/x/net",
+   "version": "v0.0.0-20220722155237-a158d28d115b",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:golang:x\\/net:v0.0.0-20220722155237-a158d28d115b:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/golang.org/x/net@v0.0.0-20220722155237-a158d28d115b",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "9305c92f86401837",
+   "name": "golang.org/x/oauth2",
+   "version": "v0.0.0-20211104180415-d3ed0bb246c8",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:golang:x\\/oauth2:v0.0.0-20211104180415-d3ed0bb246c8:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/golang.org/x/oauth2@v0.0.0-20211104180415-d3ed0bb246c8",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "d273829b56e46b0d",
+   "name": "golang.org/x/sync",
+   "version": "v0.0.0-20220722155255-886fb9371eb4",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:golang:x\\/sync:v0.0.0-20220722155255-886fb9371eb4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/golang.org/x/sync@v0.0.0-20220722155255-886fb9371eb4",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "c60e469c762d789",
+   "name": "golang.org/x/sys",
+   "version": "v0.0.0-20220722155257-8c9f86f7a55f",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:golang:x\\/sys:v0.0.0-20220722155257-8c9f86f7a55f:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/golang.org/x/sys@v0.0.0-20220722155257-8c9f86f7a55f",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "8880bf8eb896c984",
+   "name": "golang.org/x/term",
+   "version": "v0.0.0-20210927222741-03fcf44c2211",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:golang:x\\/term:v0.0.0-20210927222741-03fcf44c2211:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/golang.org/x/term@v0.0.0-20210927222741-03fcf44c2211",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "b885e38baf54d2b8",
+   "name": "golang.org/x/text",
+   "version": "v0.3.7",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:golang:x\\/text:v0.3.7:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/golang.org/x/text@v0.3.7",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "7434ee31a8f28faf",
+   "name": "golang.org/x/time",
+   "version": "v0.0.0-20220210224613-90d013bbcef8",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:golang:x\\/time:v0.0.0-20220210224613-90d013bbcef8:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/golang.org/x/time@v0.0.0-20220210224613-90d013bbcef8",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "4fd9a410bd9ad55d",
+   "name": "golang.org/x/tools",
+   "version": "v0.1.12",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:golang:x\\/tools:v0.1.12:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/golang.org/x/tools@v0.1.12",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "3480e3c6a2973e68",
+   "name": "gonum.org/v1/gonum",
+   "version": "v0.6.2",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:v1:gonum:v0.6.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/gonum.org/v1/gonum@v0.6.2",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "4963fb22a2e29442",
+   "name": "google.golang.org/api",
+   "version": "v0.60.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:google:api:v0.60.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/google.golang.org/api@v0.60.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "6f0070ca6885694",
+   "name": "google.golang.org/genproto",
+   "version": "v0.0.0-20220502173005-c8bf987b8c21",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:google:genproto:v0.0.0-20220502173005-c8bf987b8c21:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/google.golang.org/genproto@v0.0.0-20220502173005-c8bf987b8c21",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "119a30375d5b1365",
+   "name": "google.golang.org/grpc",
+   "version": "v1.47.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:google:grpc:v1.47.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/google.golang.org/grpc@v1.47.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "f295ae7d09655e97",
+   "name": "google.golang.org/protobuf",
+   "version": "v1.28.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:google:protobuf:v1.28.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/google.golang.org/protobuf@v1.28.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "25e28fa756be5b59",
+   "name": "gopkg.in/gcfg.v1",
+   "version": "v1.2.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/gopkg.in/gcfg.v1@v1.2.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "9a975cc3faca8081",
+   "name": "gopkg.in/inf.v0",
+   "version": "v0.9.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/gopkg.in/inf.v0@v0.9.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "2ccc61ce582fdb17",
+   "name": "gopkg.in/natefinch/lumberjack.v2",
+   "version": "v2.0.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/gopkg.in/natefinch/lumberjack.v2@v2.0.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "12e000ef8d4501bd",
+   "name": "gopkg.in/square/go-jose.v2",
+   "version": "v2.2.2",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/gopkg.in/square/go-jose.v2@v2.2.2",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "cc4ffde5fec3dcff",
+   "name": "gopkg.in/warnings.v0",
+   "version": "v0.1.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/gopkg.in/warnings.v0@v0.1.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "1ab8272e1995a04c",
+   "name": "gopkg.in/yaml.v2",
+   "version": "v2.4.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/gopkg.in/yaml.v2@v2.4.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "cdeab3f53a4aaf4",
+   "name": "gopkg.in/yaml.v3",
+   "version": "v3.0.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/gopkg.in/yaml.v3@v3.0.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "91cc572a3f78d1d2",
+   "name": "k8s.io/klog/v2",
+   "version": "v2.70.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:klog:v2:v2.70.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/k8s.io/klog/v2@v2.70.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "47438d4c40a9a115",
+   "name": "k8s.io/kube-openapi",
+   "version": "v0.0.0-20220803162953-67bda5d908f1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/k8s.io/kube-openapi@v0.0.0-20220803162953-67bda5d908f1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "e707f213ba27e0cb",
+   "name": "k8s.io/kubernetes",
+   "version": "v0.0.0-20220823173643-a866cbe2e5bb",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/k8s.io/kubernetes@v0.0.0-20220823173643-a866cbe2e5bb",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goBuildSettings": {
+     "-asmflags": "all=-trimpath=/workspace/src/k8s.io/kubernetes/_output/dockerized/go/src/k8s.io/kubernetes",
+     "-compiler": "gc",
+     "-gcflags": "all=-trimpath=/workspace/src/k8s.io/kubernetes/_output/dockerized/go/src/k8s.io/kubernetes ",
+     "-ldflags": "all=-X 'k8s.io/kubernetes/vendor/k8s.io/client-go/pkg/version.buildDate=2022-08-23T17:38:15Z' -X 'k8s.io/kubernetes/vendor/k8s.io/component-base/version.buildDate=2022-08-23T17:38:15Z' -X 'k8s.io/client-go/pkg/version.buildDate=2022-08-23T17:38:15Z' -X 'k8s.io/component-base/version.buildDate=2022-08-23T17:38:15Z' -X 'k8s.io/kubernetes/vendor/k8s.io/client-go/pkg/version.gitCommit=a866cbe2e5bbaa01cfd5e969aa3e033f3282a8a2' -X 'k8s.io/kubernetes/vendor/k8s.io/component-base/version.gitCommit=a866cbe2e5bbaa01cfd5e969aa3e033f3282a8a2' -X 'k8s.io/client-go/pkg/version.gitCommit=a866cbe2e5bbaa01cfd5e969aa3e033f3282a8a2' -X 'k8s.io/component-base/version.gitCommit=a866cbe2e5bbaa01cfd5e969aa3e033f3282a8a2' -X 'k8s.io/kubernetes/vendor/k8s.io/client-go/pkg/version.gitTreeState=clean' -X 'k8s.io/kubernetes/vendor/k8s.io/component-base/version.gitTreeState=clean' -X 'k8s.io/client-go/pkg/version.gitTreeState=clean' -X 'k8s.io/component-base/version.gitTreeState=clean' -X 'k8s.io/kubernetes/vendor/k8s.io/client-go/pkg/version.gitVersion=v1.25.0' -X 'k8s.io/kubernetes/vendor/k8s.io/component-base/version.gitVersion=v1.25.0' -X 'k8s.io/client-go/pkg/version.gitVersion=v1.25.0' -X 'k8s.io/component-base/version.gitVersion=v1.25.0' -X 'k8s.io/kubernetes/vendor/k8s.io/client-go/pkg/version.gitMajor=1' -X 'k8s.io/kubernetes/vendor/k8s.io/component-base/version.gitMajor=1' -X 'k8s.io/client-go/pkg/version.gitMajor=1' -X 'k8s.io/component-base/version.gitMajor=1' -X 'k8s.io/kubernetes/vendor/k8s.io/client-go/pkg/version.gitMinor=25' -X 'k8s.io/kubernetes/vendor/k8s.io/component-base/version.gitMinor=25' -X 'k8s.io/client-go/pkg/version.gitMinor=25' -X 'k8s.io/component-base/version.gitMinor=25'  -s -w",
+     "-tags": "selinux,notest",
+     "CGO_ENABLED": "0",
+     "GOAMD64": "v1",
+     "GOARCH": "amd64",
+     "GOOS": "linux",
+     "vcs": "git",
+     "vcs.modified": "false",
+     "vcs.revision": "a866cbe2e5bbaa01cfd5e969aa3e033f3282a8a2",
+     "vcs.time": "2022-08-23T17:36:43Z"
+    },
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "2e6ca10b5cea706f",
+   "name": "k8s.io/release/images/build/go-runner",
+   "version": "(devel)",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/go-runner",
+     "layerID": "sha256:7d5f5bba7c4521a4a24a2d3b23a81b274749b6433291360d6d4c69b85a77aeb8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:release:images\\/build\\/go-runner:\\(devel\\):*:*:*:*:*:*:*",
+    "cpe:2.3:a:release:images\\/build\\/go_runner:\\(devel\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/k8s.io/release/images/build/go-runner@(devel)",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goBuildSettings": {
+     "-compiler": "gc",
+     "-ldflags": "-s -w -buildid= -extldflags \"-static\"",
+     "CGO_ENABLED": "0",
+     "GOAMD64": "v1",
+     "GOARCH": "amd64",
+     "GOOS": "linux"
+    },
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/release/images/build/go-runner"
+   }
+  },
+  {
+   "id": "4e3f82c1c41b722f",
+   "name": "k8s.io/utils",
+   "version": "v0.0.0-20220728103510-ee6ede2d64ed",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/k8s.io/utils@v0.0.0-20220728103510-ee6ede2d64ed",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "913906225fd3778b",
+   "name": "netbase",
+   "version": "6.3",
+   "type": "deb",
+   "foundBy": "dpkgdb-cataloger",
+   "locations": [
+    {
+     "path": "/usr/share/doc/netbase/copyright",
+     "layerID": "sha256:8d7366c22fd8219bfcfb61ed28457854c80e310b0d736b67861b2ea7fcd77843"
+    },
+    {
+     "path": "/var/lib/dpkg/status.d/netbase",
+     "layerID": "sha256:8d7366c22fd8219bfcfb61ed28457854c80e310b0d736b67861b2ea7fcd77843"
+    }
+   ],
+   "licenses": [
+    "GPL-2"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:netbase:netbase:6.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:deb/debian/netbase@6.3?arch=all&distro=debian-11",
+   "metadataType": "DpkgMetadata",
+   "metadata": {
+    "package": "netbase",
+    "source": "",
+    "version": "6.3",
+    "sourceVersion": "",
+    "architecture": "all",
+    "maintainer": "Marco d'Itri <md@linux.it>",
+    "installedSize": 41,
+    "files": []
+   }
+  },
+  {
+   "id": "353d6327cf9b8669",
+   "name": "sigs.k8s.io/apiserver-network-proxy/konnectivity-client",
+   "version": "v0.0.32",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:apiserver-network-proxy:konnectivity-client:v0.0.32:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apiserver-network-proxy:konnectivity_client:v0.0.32:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apiserver_network_proxy:konnectivity-client:v0.0.32:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apiserver_network_proxy:konnectivity_client:v0.0.32:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apiserver-network:konnectivity-client:v0.0.32:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apiserver-network:konnectivity_client:v0.0.32:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apiserver_network:konnectivity-client:v0.0.32:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apiserver_network:konnectivity_client:v0.0.32:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apiserver:konnectivity-client:v0.0.32:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apiserver:konnectivity_client:v0.0.32:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/sigs.k8s.io/apiserver-network-proxy/konnectivity-client@v0.0.32",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "d9c0dc32dc1642b0",
+   "name": "sigs.k8s.io/json",
+   "version": "v0.0.0-20220713155537-f223a00ba0e2",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/sigs.k8s.io/json@v0.0.0-20220713155537-f223a00ba0e2",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "bdd960d5eae101d6",
+   "name": "sigs.k8s.io/structured-merge-diff/v4",
+   "version": "v4.2.3",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:structured-merge-diff:v4:v4.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:structured_merge_diff:v4:v4.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:structured-merge:v4:v4.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:structured_merge:v4:v4.2.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:structured:v4:v4.2.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.2.3",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "65498daf229ce725",
+   "name": "sigs.k8s.io/yaml",
+   "version": "v1.2.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/bin/kube-controller-manager",
+     "layerID": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/sigs.k8s.io/yaml@v1.2.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.19",
+    "architecture": "amd64",
+    "mainModule": "k8s.io/kubernetes"
+   }
+  },
+  {
+   "id": "da19de8251a9b31f",
+   "name": "tzdata",
+   "version": "2021a-1+deb11u4",
+   "type": "deb",
+   "foundBy": "dpkgdb-cataloger",
+   "locations": [
+    {
+     "path": "/usr/share/doc/tzdata/copyright",
+     "layerID": "sha256:8d7366c22fd8219bfcfb61ed28457854c80e310b0d736b67861b2ea7fcd77843"
+    },
+    {
+     "path": "/var/lib/dpkg/status.d/tzdata",
+     "layerID": "sha256:8d7366c22fd8219bfcfb61ed28457854c80e310b0d736b67861b2ea7fcd77843"
+    }
+   ],
+   "licenses": [],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:tzdata:tzdata:2021a-1\\+deb11u4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:deb/debian/tzdata@2021a-1+deb11u4?arch=all&distro=debian-11",
+   "metadataType": "DpkgMetadata",
+   "metadata": {
+    "package": "tzdata",
+    "source": "",
+    "version": "2021a-1+deb11u4",
+    "sourceVersion": "",
+    "architecture": "all",
+    "maintainer": "GNU Libc Maintainers <debian-glibc@lists.debian.org>",
+    "installedSize": 3409,
+    "files": []
+   }
+  }
+ ],
+ "artifactRelationships": [],
+ "source": {
+  "type": "image",
+  "target": {
+   "userInput": "/tmp/sha256_66ce7d460e53f942bb4729f656d66fe475ec3d41728de986b6d790eee6d8205d.tar.gz",
+   "imageID": "sha256:1a54c86c03a673d4e046b9f64854c713512d39a0136aef76a4a450d5ad51273e",
+   "manifestDigest": "sha256:ae920d1596e48d87d13b6037232680a493e7f3e7bb97a84dadc0ba9047287221",
+   "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+   "tags": [
+    "registry.k8s.io/kube-controller-manager:i-was-a-digest"
+   ],
+   "imageSize": 117088749,
+   "layers": [
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:8d7366c22fd8219bfcfb61ed28457854c80e310b0d736b67861b2ea7fcd77843",
+     "size": 2355414
+    },
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:7d5f5bba7c4521a4a24a2d3b23a81b274749b6433291360d6d4c69b85a77aeb8",
+     "size": 1536000
+    },
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:c5f1a47b47bc1c85ac26d6fe3ca22f3c454c4b643cc7a0bc93b0729195d979e8",
+     "size": 113197335
+    }
+   ],
+   "manifest": "eyJzY2hlbWFWZXJzaW9uIjoyLCJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmRpc3RyaWJ1dGlvbi5tYW5pZmVzdC52Mitqc29uIiwiY29uZmlnIjp7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuY29udGFpbmVyLmltYWdlLnYxK2pzb24iLCJzaXplIjoxNjE4LCJkaWdlc3QiOiJzaGEyNTY6MWE1NGM4NmMwM2E2NzNkNGUwNDZiOWY2NDg1NGM3MTM1MTJkMzlhMDEzNmFlZjc2YTRhNDUwZDVhZDUxMjczZSJ9LCJsYXllcnMiOlt7Im1lZGlhVHlwZSI6ImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLCJzaXplIjo4MDQxMDEsImRpZ2VzdCI6InNoYTI1Njo4ZDczNjZjMjJmZDgyMTliZmNmYjYxZWQyODQ1Nzg1NGM4MGUzMTBiMGQ3MzZiNjc4NjFiMmVhN2ZjZDc3ODQzIn0seyJtZWRpYVR5cGUiOiJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwic2l6ZSI6Njk0ODUxLCJkaWdlc3QiOiJzaGEyNTY6N2Q1ZjViYmE3YzQ1MjFhNGEyNGEyZDNiMjNhODFiMjc0NzQ5YjY0MzMyOTEzNjBkNmQ0YzY5Yjg1YTc3YWViOCJ9LHsibWVkaWFUeXBlIjoiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsInNpemUiOjI5NzU2NjI5LCJkaWdlc3QiOiJzaGEyNTY6YzVmMWE0N2I0N2JjMWM4NWFjMjZkNmZlM2NhMjJmM2M0NTRjNGI2NDNjYzdhMGJjOTNiMDcyOTE5NWQ5NzllOCJ9XX0=",
+   "config": "eyJhcmNoaXRlY3R1cmUiOiJhbWQ2NCIsImF1dGhvciI6IkJhemVsIiwiY29uZmlnIjp7IlVzZXIiOiIwIiwiRW52IjpbIlBBVEg9L3Vzci9sb2NhbC9zYmluOi91c3IvbG9jYWwvYmluOi91c3Ivc2JpbjovdXNyL2Jpbjovc2JpbjovYmluIiwiU1NMX0NFUlRfRklMRT0vZXRjL3NzbC9jZXJ0cy9jYS1jZXJ0aWZpY2F0ZXMuY3J0Il0sIkVudHJ5cG9pbnQiOlsiL2dvLXJ1bm5lciJdLCJXb3JraW5nRGlyIjoiLyIsIkxhYmVscyI6eyJkZXNjcmlwdGlvbiI6ImdvIGJhc2VkIHJ1bm5lciBmb3IgZGlzdHJvbGVzcyBzY2VuYXJpb3MiLCJtYWludGFpbmVycyI6Ikt1YmVybmV0ZXMgQXV0aG9ycyJ9LCJPbkJ1aWxkIjpudWxsfSwiY3JlYXRlZCI6IjIwMjItMDgtMjNUMTg6MDA6MjIuNDU1NzUwMDc4WiIsImhpc3RvcnkiOlt7ImNyZWF0ZWQiOiIxOTcwLTAxLTAxVDAwOjAwOjAwWiIsImNyZWF0ZWRfYnkiOiJiYXplbCBidWlsZCAuLi4iLCJhdXRob3IiOiJCYXplbCJ9LHsiY3JlYXRlZCI6IjIwMjItMDgtMDRUMDE6MTk6NTEuMDk2NTEwMDA5WiIsImNyZWF0ZWRfYnkiOiJMQUJFTCBtYWludGFpbmVycz1LdWJlcm5ldGVzIEF1dGhvcnMiLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCIsImVtcHR5X2xheWVyIjp0cnVlfSx7ImNyZWF0ZWQiOiIyMDIyLTA4LTA0VDAxOjE5OjUxLjA5NjUxMDAwOVoiLCJjcmVhdGVkX2J5IjoiTEFCRUwgZGVzY3JpcHRpb249Z28gYmFzZWQgcnVubmVyIGZvciBkaXN0cm9sZXNzIHNjZW5hcmlvcyIsImNvbW1lbnQiOiJidWlsZGtpdC5kb2NrZXJmaWxlLnYwIiwiZW1wdHlfbGF5ZXIiOnRydWV9LHsiY3JlYXRlZCI6IjIwMjItMDgtMDRUMDE6MTk6NTEuMDk2NTEwMDA5WiIsImNyZWF0ZWRfYnkiOiJXT1JLRElSIC8iLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCIsImVtcHR5X2xheWVyIjp0cnVlfSx7ImNyZWF0ZWQiOiIyMDIyLTA4LTA0VDAxOjE5OjUxLjA5NjUxMDAwOVoiLCJjcmVhdGVkX2J5IjoiQ09QWSAvd29ya3NwYWNlL2dvLXJ1bm5lciAuICMgYnVpbGRraXQiLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCJ9LHsiY3JlYXRlZCI6IjIwMjItMDgtMDRUMDE6MTk6NTEuMDk2NTEwMDA5WiIsImNyZWF0ZWRfYnkiOiJFTlRSWVBPSU5UIFtcIi9nby1ydW5uZXJcIl0iLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCIsImVtcHR5X2xheWVyIjp0cnVlfSx7ImNyZWF0ZWQiOiIyMDIyLTA4LTIzVDE4OjAwOjIyLjQ1NTc1MDA3OFoiLCJjcmVhdGVkX2J5IjoiQ09QWSAgL3Vzci9sb2NhbC9iaW4vICMgYnVpbGRraXQiLCJjb21tZW50IjoiYnVpbGRraXQuZG9ja2VyZmlsZS52MCJ9XSwib3MiOiJsaW51eCIsInJvb3RmcyI6eyJ0eXBlIjoibGF5ZXJzIiwiZGlmZl9pZHMiOlsic2hhMjU2OjhkNzM2NmMyMmZkODIxOWJmY2ZiNjFlZDI4NDU3ODU0YzgwZTMxMGIwZDczNmI2Nzg2MWIyZWE3ZmNkNzc4NDMiLCJzaGEyNTY6N2Q1ZjViYmE3YzQ1MjFhNGEyNGEyZDNiMjNhODFiMjc0NzQ5YjY0MzMyOTEzNjBkNmQ0YzY5Yjg1YTc3YWViOCIsInNoYTI1NjpjNWYxYTQ3YjQ3YmMxYzg1YWMyNmQ2ZmUzY2EyMmYzYzQ1NGM0YjY0M2NjN2EwYmM5M2IwNzI5MTk1ZDk3OWU4Il19fQ==",
+   "repoDigests": [],
+   "architecture": "",
+   "os": ""
+  }
+ },
+ "distro": {
+  "prettyName": "Distroless",
+  "name": "Debian GNU/Linux",
+  "id": "debian",
+  "version": "Debian GNU/Linux 11 (bullseye)",
+  "versionID": "11",
+  "homeURL": "https://github.com/GoogleContainerTools/distroless",
+  "supportURL": "https://github.com/GoogleContainerTools/distroless/blob/master/README.md",
+  "bugReportURL": "https://github.com/GoogleContainerTools/distroless/issues/new"
+ },
+ "descriptor": {
+  "name": "syft",
+  "version": "v0.58.0"
+ },
+ "schema": {
+  "version": "4.0.0",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-4.0.0.json"
+ }
+}
